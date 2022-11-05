@@ -1,0 +1,50 @@
+.ImageLinkForm {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container {
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form-container p {
+    font-size: 1.6rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form input[type="text"] {
+    font-size: 1.2rem;
+    height: 50px;
+    padding: .5em;
+    border: 3px solid #000;
+    border-right-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form input[type="text"]:focus {
+    outline: none;
+}
+
+.form button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: aquamarine;
+    padding: .7em;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    height: 50px;
+    outline: none;
+}
+
+.form button:hover {
+    color: #FFF;
+    background-color: #000;
+}
